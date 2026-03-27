@@ -21,26 +21,25 @@ This project trains an autonomous racing agent using Deep Reinforcement Learning
 ## 🛠️ Installation
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone git@github.com:Natrecors/RacingAI.git
    cd RacingAI
-
+```
 2. Install the required dependencies:
-   ```bash
+```bash
    pip install gymnasium[box2d] stable-baselines3[extra] torch torchvision matplotlib pandas
-   
+```
 3. 🏎️ Usage
 To watch the AI drive:
 Make sure you have the required libraries installed, then simply run:
-  ```bash
+```bash
   python watch_stable.py
-  ```
+```
 To train your own model:
 If you have an NVIDIA GPU and want to train a new model from scratch:
-
-    ```bash
+```bash
     python train_gpu.py
-
+```
 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
